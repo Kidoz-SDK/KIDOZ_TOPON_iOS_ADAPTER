@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11295762256BFA8C009493F3 /* AnyThinkBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1129575E256BFA8C009493F3 /* AnyThinkBanner.framework */; };
+		11295763256BFA8C009493F3 /* AnyThinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1129575F256BFA8C009493F3 /* AnyThinkSDK.framework */; };
+		11295764256BFA8C009493F3 /* AnyThinkInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11295760256BFA8C009493F3 /* AnyThinkInterstitial.framework */; };
+		11295765256BFA8C009493F3 /* AnyThinkRewardedVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11295761256BFA8C009493F3 /* AnyThinkRewardedVideo.framework */; };
+		1129576D256C1C31009493F3 /* AnyThinkSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1129576C256C1C31009493F3 /* AnyThinkSplash.framework */; };
+		11295770256C1C7E009493F3 /* AnyThinkNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1129576F256C1C7E009493F3 /* AnyThinkNative.framework */; };
+		11295773256C1FEF009493F3 /* libKidozTopOnAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11295772256C1FEF009493F3 /* libKidozTopOnAdapter.a */; };
+		116D6E68218069FB009262FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D6E67218069FB009262FB /* AppDelegate.m */; };
+		116D6E6B218069FB009262FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D6E6A218069FB009262FB /* ViewController.m */; };
+		116D6E6E218069FB009262FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116D6E6C218069FB009262FB /* Main.storyboard */; };
+		116D6E73218069FD009262FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116D6E72218069FD009262FB /* Assets.xcassets */; };
+		116D6E76218069FD009262FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116D6E74218069FD009262FB /* LaunchScreen.storyboard */; };
+		116D6E79218069FD009262FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D6E78218069FD009262FB /* main.m */; };
+		11B73E0F2546F25900D8BB97 /* libKidozSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B73E0E2546F25900D8BB97 /* libKidozSDK.a */; };
+		11F73B9521A407D800E4772E /* kidoz_left_side_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F73B9421A407D800E4772E /* kidoz_left_side_logo_small.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1129575E256BFA8C009493F3 /* AnyThinkBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkBanner.framework; sourceTree = "<group>"; };
+		1129575F256BFA8C009493F3 /* AnyThinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkSDK.framework; sourceTree = "<group>"; };
+		11295760256BFA8C009493F3 /* AnyThinkInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkInterstitial.framework; sourceTree = "<group>"; };
+		11295761256BFA8C009493F3 /* AnyThinkRewardedVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkRewardedVideo.framework; sourceTree = "<group>"; };
+		1129576C256C1C31009493F3 /* AnyThinkSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkSplash.framework; sourceTree = "<group>"; };
+		1129576F256C1C7E009493F3 /* AnyThinkNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkNative.framework; sourceTree = "<group>"; };
+		11295772256C1FEF009493F3 /* libKidozTopOnAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKidozTopOnAdapter.a; sourceTree = "<group>"; };
+		116D6E63218069FB009262FB /* KidozTopOnSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidozTopOnSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116D6E66218069FB009262FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		116D6E67218069FB009262FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		116D6E69218069FB009262FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		116D6E6A218069FB009262FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		116D6E6D218069FB009262FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		116D6E72218069FD009262FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116D6E75218069FD009262FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		116D6E77218069FD009262FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116D6E78218069FD009262FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11B73E0E2546F25900D8BB97 /* libKidozSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKidozSDK.a; sourceTree = "<group>"; };
+		11F73B9421A407D800E4772E /* kidoz_left_side_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidoz_left_side_logo_small.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116D6E60218069FB009262FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11295763256BFA8C009493F3 /* AnyThinkSDK.framework in Frameworks */,
+				11295770256C1C7E009493F3 /* AnyThinkNative.framework in Frameworks */,
+				1129576D256C1C31009493F3 /* AnyThinkSplash.framework in Frameworks */,
+				11295765256BFA8C009493F3 /* AnyThinkRewardedVideo.framework in Frameworks */,
+				11295764256BFA8C009493F3 /* AnyThinkInterstitial.framework in Frameworks */,
+				11B73E0F2546F25900D8BB97 /* libKidozSDK.a in Frameworks */,
+				11295773256C1FEF009493F3 /* libKidozTopOnAdapter.a in Frameworks */,
+				11295762256BFA8C009493F3 /* AnyThinkBanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116D6E5A218069FB009262FB = {
+			isa = PBXGroup;
+			children = (
+				116D6E65218069FB009262FB /* KidozTopOnSample */,
+				11F73B9621A40DCE00E4772E /* Frameworks */,
+				116D6E64218069FB009262FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116D6E64218069FB009262FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116D6E63218069FB009262FB /* KidozTopOnSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116D6E65218069FB009262FB /* KidozTopOnSample */ = {
+			isa = PBXGroup;
+			children = (
+				116D6E66218069FB009262FB /* AppDelegate.h */,
+				116D6E67218069FB009262FB /* AppDelegate.m */,
+				116D6E69218069FB009262FB /* ViewController.h */,
+				116D6E6A218069FB009262FB /* ViewController.m */,
+				116D6E6C218069FB009262FB /* Main.storyboard */,
+				116D6E72218069FD009262FB /* Assets.xcassets */,
+				11F73B9421A407D800E4772E /* kidoz_left_side_logo_small.png */,
+				116D6E74218069FD009262FB /* LaunchScreen.storyboard */,
+				116D6E77218069FD009262FB /* Info.plist */,
+				116D6E78218069FD009262FB /* main.m */,
+			);
+			path = KidozTopOnSample;
+			sourceTree = "<group>";
+		};
+		11F73B9621A40DCE00E4772E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1129576F256C1C7E009493F3 /* AnyThinkNative.framework */,
+				1129576C256C1C31009493F3 /* AnyThinkSplash.framework */,
+				1129575E256BFA8C009493F3 /* AnyThinkBanner.framework */,
+				11295760256BFA8C009493F3 /* AnyThinkInterstitial.framework */,
+				11295761256BFA8C009493F3 /* AnyThinkRewardedVideo.framework */,
+				1129575F256BFA8C009493F3 /* AnyThinkSDK.framework */,
+				11295772256C1FEF009493F3 /* libKidozTopOnAdapter.a */,
+				11B73E0E2546F25900D8BB97 /* libKidozSDK.a */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116D6E62218069FB009262FB /* KidozTopOnSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116D6E92218069FD009262FB /* Build configuration list for PBXNativeTarget "KidozTopOnSample" */;
+			buildPhases = (
+				116D6E5F218069FB009262FB /* Sources */,
+				116D6E60218069FB009262FB /* Frameworks */,
+				116D6E61218069FB009262FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidozTopOnSample;
+			productName = KidozAdmobSample;
+			productReference = 116D6E63218069FB009262FB /* KidozTopOnSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116D6E5B218069FB009262FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Kidoz;
+				TargetAttributes = {
+					116D6E62218069FB009262FB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 116D6E5E218069FB009262FB /* Build configuration list for PBXProject "KidozTopOnSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116D6E5A218069FB009262FB;
+			productRefGroup = 116D6E64218069FB009262FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116D6E62218069FB009262FB /* KidozTopOnSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116D6E61218069FB009262FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F73B9521A407D800E4772E /* kidoz_left_side_logo_small.png in Resources */,
+				116D6E76218069FD009262FB /* LaunchScreen.storyboard in Resources */,
+				116D6E73218069FD009262FB /* Assets.xcassets in Resources */,
+				116D6E6E218069FB009262FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116D6E5F218069FB009262FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116D6E6B218069FB009262FB /* ViewController.m in Sources */,
+				116D6E79218069FD009262FB /* main.m in Sources */,
+				116D6E68218069FB009262FB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		116D6E6C218069FB009262FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116D6E6D218069FB009262FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		116D6E74218069FD009262FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116D6E75218069FD009262FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		116D6E90218069FD009262FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		116D6E91218069FD009262FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116D6E93218069FD009262FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V79KVWWJ4G;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = KidozTopOnSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidoz.Kidoz-iOS-TopOn-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		116D6E94218069FD009262FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V79KVWWJ4G;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = KidozTopOnSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidoz.Kidoz-iOS-TopOn-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116D6E5E218069FB009262FB /* Build configuration list for PBXProject "KidozTopOnSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116D6E90218069FD009262FB /* Debug */,
+				116D6E91218069FD009262FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116D6E92218069FD009262FB /* Build configuration list for PBXNativeTarget "KidozTopOnSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116D6E93218069FD009262FB /* Debug */,
+				116D6E94218069FD009262FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 116D6E5B218069FB009262FB /* Project object */;
+}
