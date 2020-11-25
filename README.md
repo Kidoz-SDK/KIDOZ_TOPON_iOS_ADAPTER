@@ -44,7 +44,7 @@ Fill in the Adapter's Class Name for each ad type :
 </br>
 
 </br>
-<a href="url"><img src="https://cdn.kidoz.net/new/sdk/GITHUB_GRAPHICS/KIDOZ_SDK_Documentaions/TopOn-CustomNetwork.png" align="left" height="659" width="994" ></a>
+<a href="url"><img src="https://cdn.kidoz.net/new/sdk/GITHUB_GRAPHICS/KIDOZ_SDK_Documentaions/topon-customnetwork-ios.png" align="left" height="659" width="994" ></a>
 </br>
 
 
@@ -58,7 +58,7 @@ Fill in the Adapter's Class Name for each ad type :
 </br>
 
 </br>
-<a href="url"><img src="https://cdn.kidoz.net/new/sdk/GITHUB_GRAPHICS/KIDOZ_SDK_Documentaions/TopOn-AdSource.png" align="left" height="659" width="994" ></a>
+<a href="url"><img src="https://cdn.kidoz.net/new/sdk/GITHUB_GRAPHICS/KIDOZ_SDK_Documentaions/topon-adsource-ios.png" align="left" height="659" width="994" ></a>
 </br>
 
 ## Important note: ##
