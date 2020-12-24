@@ -20,7 +20,7 @@
 		116D6E73218069FD009262FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116D6E72218069FD009262FB /* Assets.xcassets */; };
 		116D6E76218069FD009262FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116D6E74218069FD009262FB /* LaunchScreen.storyboard */; };
 		116D6E79218069FD009262FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D6E78218069FD009262FB /* main.m */; };
-		11B73E0F2546F25900D8BB97 /* libKidozSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B73E0E2546F25900D8BB97 /* libKidozSDK.a */; };
+		11C5848025929D790005EDA8 /* libKidozSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C5847F25929D790005EDA8 /* libKidozSDK.a */; };
 		11F73B9521A407D800E4772E /* kidoz_left_side_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F73B9421A407D800E4772E /* kidoz_left_side_logo_small.png */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,7 @@
 		116D6E75218069FD009262FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116D6E77218069FD009262FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		116D6E78218069FD009262FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		11B73E0E2546F25900D8BB97 /* libKidozSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKidozSDK.a; sourceTree = "<group>"; };
+		11C5847F25929D790005EDA8 /* libKidozSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKidozSDK.a; sourceTree = "<group>"; };
 		11F73B9421A407D800E4772E /* kidoz_left_side_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidoz_left_side_logo_small.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,8 +56,8 @@
 				1129576D256C1C31009493F3 /* AnyThinkSplash.framework in Frameworks */,
 				11295765256BFA8C009493F3 /* AnyThinkRewardedVideo.framework in Frameworks */,
 				11295764256BFA8C009493F3 /* AnyThinkInterstitial.framework in Frameworks */,
-				11B73E0F2546F25900D8BB97 /* libKidozSDK.a in Frameworks */,
 				11295773256C1FEF009493F3 /* libKidozTopOnAdapter.a in Frameworks */,
+				11C5848025929D790005EDA8 /* libKidozSDK.a in Frameworks */,
 				11295762256BFA8C009493F3 /* AnyThinkBanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +102,7 @@
 		11F73B9621A40DCE00E4772E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				11C5847F25929D790005EDA8 /* libKidozSDK.a */,
 				1129576F256C1C7E009493F3 /* AnyThinkNative.framework */,
 				1129576C256C1C31009493F3 /* AnyThinkSplash.framework */,
 				1129575E256BFA8C009493F3 /* AnyThinkBanner.framework */,
@@ -109,7 +110,6 @@
 				11295761256BFA8C009493F3 /* AnyThinkRewardedVideo.framework */,
 				1129575F256BFA8C009493F3 /* AnyThinkSDK.framework */,
 				11295772256C1FEF009493F3 /* libKidozTopOnAdapter.a */,
-				11B73E0E2546F25900D8BB97 /* libKidozSDK.a */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
